@@ -11,7 +11,7 @@ public interface ListInterface {
 
   /*
    * returns an array of random integers of the length indicated.
-   * Elements range from 0(inclusive) to upperBoud(exclusive)
+   * Elements range from 0(inclusive) to upperBound(exclusive)
    */
   public int[] getRandomArray(int length, int upperBound);
 
@@ -23,7 +23,7 @@ public interface ListInterface {
 
   /*
    * returns an array of random integers of the length indicated.
-   * Elements range from 0(inclusive) to upperBoud(exclusive)
+   * Elements range from 0(inclusive) to upperBound(exclusive)
    */
   public ArrayList<Integer> getRandomArrayList(int length, int upperBound);
 
