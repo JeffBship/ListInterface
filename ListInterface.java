@@ -11,7 +11,7 @@ public interface ListInterface {
 
   /*
    * returns an array of random integers of the length indicated.
-   * Elements range from 0(inclusive) to upperBound(exclusive)
+   * Elements range from 0(inclusive) to upperBoud(exclusive)
    */
   public int[] getRandomArray(int length, int upperBound);
 
@@ -23,7 +23,7 @@ public interface ListInterface {
 
   /*
    * returns an array of random integers of the length indicated.
-   * Elements range from 0(inclusive) to upperBound(exclusive)
+   * Elements range from 0(inclusive) to upperBoud(exclusive)
    */
   public ArrayList<Integer> getRandomArrayList(int length, int upperBound);
 
@@ -32,6 +32,16 @@ public interface ListInterface {
    * Elements start at 0 and increase by increment.
    */
   public ArrayList<Integer> getOrderedArrayList(int length, int increment);
+  
+  /*
+   * String representation of an array with elements separated by spaces.
+   */
+  public String toString(int[] array);
+  
+  /*
+   * String representation of an ArrayList with elements separated by spaces.
+   */
+  public String toString(ArrayList<Integer> arrayList);
 
 }
 
